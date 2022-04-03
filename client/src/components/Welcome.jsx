@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { AiFillPlayCircle } from "react-icons/ai";
+import { RiPlantLine } from "react-icons/ri";
 import { SiEthereum } from "react-icons/si";
 import { BsInfoCircle } from "react-icons/bs";
 
@@ -47,9 +47,9 @@ const Welcome = () => {
                       <button
                         type="button"
                         onClick={connectWallet}
-                        className="flex flex-row justify-center items-center my-5 bg-[#2952e3] p-3 rounded-full cursor-pointer hover:bg-[#2546bd]"
+                        className="flex flex-row justify-center items-center my-5 bg-[#08776A] p-3 rounded-full cursor-pointer hover:bg-[#45DD93]"
                       >
-                       <AiFillPlayCircle className ='text-white mr-2'/> 
+                       < RiPlantLine className ='text-white mr-2'/> 
                        <p className="text-white text-base font-semibold">
                          Connect Wallet
                            </p> 
@@ -108,7 +108,7 @@ const Welcome = () => {
                   <button
                   type="button"
                   onClick={handleSubmit}
-                  className="text-white w-full mt-2 border-[1px] p-2 border-[#3d4f7c] hover: bg-[#3d4f7c] rounded-full cursor-pointer"
+                  className="text-white w-full mt-2 border-[1px] p-2 border-[#08776A] hover: bg-[#08776A] rounded-full cursor-pointer"
                   >
                   Send Now
                   </button>

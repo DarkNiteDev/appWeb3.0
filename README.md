@@ -1,4 +1,4 @@
-# appWeb3.0
+# App Web3.0
  App web 3.0 to send and buy cryptos easily.
  
  ##

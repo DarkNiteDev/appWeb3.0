@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { AiFillPlayCircle } from "react-icons/ai";
+import { RiAliensLine } from "react-icons/ri";
 import { SiEthereum } from "react-icons/si";
 import { BsInfoCircle } from "react-icons/bs";
 
@@ -38,7 +38,7 @@ const Welcome = () => {
             <div className="flex mf:flex-row flex-col items-start justify-between md:p-20 py-12 px-4">
                 <div className="flex flex-1 justify-start flex-col mf:mr-10">
                     <h1 className="text-3xl sm:text-5xl text-white text-gradient py-1">
-                        Send Crypto across the universe
+                        Send Crypto Across the Universe
                     </h1>
                     <p className="text-left mt-5 text-white font-light md:w-9/12 w-11/12 text-base">
                         Explore the crypto Space. Buy and sell cryptocurrencies easily on NiteCoin Market.
@@ -47,11 +47,11 @@ const Welcome = () => {
                       <button
                         type="button"
                         onClick={connectWallet}
-                        className="flex flex-row justify-center items-center my-5 bg-[#2952e3] p-3 rounded-full cursor-pointer hover:bg-[#2546bd]"
+                        className="flex flex-row justify-center items-center my-10 bg-[#2d31417d] p-4 rounded-full cursor-pointer hover:bg-[#17171f] "
                       >
-                       <AiFillPlayCircle className ='text-white mr-2'/> 
+                       <RiAliensLine size={20} className ='text-white mr-2'/> 
                        <p className="text-white text-base font-semibold">
-                         Connect Wallet
+                         Connect Your Wallet
                            </p> 
                     </button>
                     )}
@@ -108,7 +108,7 @@ const Welcome = () => {
                   <button
                   type="button"
                   onClick={handleSubmit}
-                  className="text-white w-full mt-2 border-[1px] p-2 border-[#3d4f7c] hover: bg-[#3d4f7c] rounded-full cursor-pointer"
+                  className="text-white w-full mt-2 border-[1px] p-2  border-[#4b51687c]  bg-[#2d31417d] ] hover:bg-[#17171f]  rounded-full cursor-pointer"
                   >
                   Send Now
                   </button>

@@ -29,21 +29,21 @@ const Services = () => {
                 </div>
                 <div className="flex-1 flex flex-col justify-start items-center">
                     <ServiceCard
-                        color="bg-[#2952E3]"
+                        color="bg-[#56565e]"
                         title="Security Guaranted"
                         icon={<BsShieldFillCheck fontSize={21} className="text-white" />}
                         subtitle="Security is guaranted. We always maintain privacy and mainting the quality of our products."
 
                     />
                      <ServiceCard
-                        color="bg-[#8945F8]"
+                        color="bg-[#56565e]"
                         title="Best exchange rates"
                         icon={<BiSearchAlt fontSize={21} className="text-white" />}
                         subtitle="Security is guaranted. We always maintain privacy and mainting the quality of our products."
 
                     />
                      <ServiceCard
-                        color="bg-[#F84550]"
+                        color="bg-[#56565e]"
                         title="Fastest transactions"
                         icon={<RiHeart2Fill fontSize={21} className="text-white" />}
                         subtitle="Security is guaranted. We always maintain privacy and mainting the quality of our products."

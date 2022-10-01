@@ -8,4 +8,4 @@ Back end(HardHat)
 Solidity Smart Contract.
 Use of GIPHY API.
 
-![Peek 2022-09-29 23-26](https://user-images.githubusercontent.com/99200113/193176920-300777f7-9e3e-4d25-8d78-8319d5304f36.gif)
+![Peek 2022-10-01 12-50](https://user-images.githubusercontent.com/99200113/193417476-5c17e351-1ebb-4313-9572-9ecfe5ce1d43.gif)
